@@ -10,19 +10,19 @@
     <title>dB Counter</title>
 </head>
 <body>
-    <h1>Decibel Meter</h1>
+    <h1>分貝計</h1>
     <main>
         <h2><span id="db">-</span> dB</h2>
         <div id='visuals'></div>
     </main>
     <div class="inputs">
         <div class="input">
-            <label for="offset">Offset value: <span id='offset_value'>-</span> dB</label>
+            <label for="offset">校正值: <span id='offset_value'>-</span> dB</label>
             <br>
             <input type="range" min="-30" max="70" value="30" class="slider" id="offset">
         </div>
         <div class="input">
-            <label for="refresh_rate">Refresh every: <span id='refresh_value'>-</span> ms</label>
+            <label for="refresh_rate">檢測率: <span id='refresh_value'>-</span> ms</label>
             <br>
             <input type="range" min="100" max="2000" value="200" class="slider" id="refresh_rate">
         </div>
